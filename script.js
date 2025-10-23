@@ -161,7 +161,7 @@ function addEmergencyBanner() {
     `;
     banner.innerHTML = '<i class="fas fa-phone"></i> 24/7 Emergency';
     banner.addEventListener('click', () => {
-        alert('Emergency Service: Call our 24/7 line for immediate assistance!');
+        window.location.href = 'tel:+18012525155';
     });
     
     document.body.appendChild(banner);
