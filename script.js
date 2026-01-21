@@ -161,7 +161,7 @@ function addEmergencyBanner() {
     `;
     banner.innerHTML = '<i class="fas fa-phone"></i> 24/7 Emergency';
     banner.addEventListener('click', () => {
-        window.location.href = 'tel:+18012525155';
+        window.location.href = 'tel:+15123600599';
     });
     
     document.body.appendChild(banner);
